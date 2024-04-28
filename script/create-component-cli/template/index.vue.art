@@ -1,0 +1,26 @@
+<template>
+  <div class="ka-ui__{{kebabCaseName}}">
+    {{pascalCaseName}}
+  </div>
+</template>
+<script>
+import { {{camelCaseName}}Props } from './types'
+
+export default {
+  name: "{{pascalCaseName}}",
+  props: {{camelCaseName}}Props,
+  data () {
+    return {}
+  },
+  methods: {}
+}
+</script>
+
+<style lang="scss">
+@import "../../style/reset.scss";
+</style>
+
+<style lang="scss" scoped>
+@import "./index.scss";
+</style>
+

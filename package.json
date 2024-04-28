@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "duero-config": "echo 'Do not need duero config'",
+    "dev": "node script/run-cli/dev.mjs",
+    "dev:site": "lerna run dev --scope=site",
+    "build": "lerna run build-site --scope=site",
+    "push": "node script/run-cli/publish.mjs",
+    "new": "node script/create-component-cli/cli.mjs",
+    "test": "vitest"
+  },
+  "workspaces": [
+    "site",
+    "shared",
+    "components/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "lerna": "^4.0.0"
+  }
+}

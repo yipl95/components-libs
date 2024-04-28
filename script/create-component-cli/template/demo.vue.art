@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <{{pascalCaseName}} />
+  </div>
+</template>
+<script>
+import {{pascalCaseName}} from '../index.vue'
+
+export default {
+  components: {
+    {{pascalCaseName}},
+  },
+  data () {
+    return {}
+  },
+  methods: {}
+}
+</script>
+

@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "@vant",
+    "plugin:vue/essential",
+    "@vue/standard",
+    "@vue/typescript/recommended"
+  ]
+}
