@@ -4,11 +4,11 @@
   "scripts": {
     "duero-config": "echo 'Do not need duero config'",
     "dev": "node script/run-cli/dev.mjs",
+    "n:test": "node script/run-cli/test.mjs",
     "dev:site": "lerna run dev --scope=site",
     "build": "lerna run build-site --scope=site",
     "push": "node script/run-cli/publish.mjs",
     "new": "node script/create-component-cli/cli.mjs",
-    "test": "vitest"
   },
   "workspaces": [
     "site",
